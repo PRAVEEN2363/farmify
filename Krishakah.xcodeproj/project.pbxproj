@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		699E7C60EC335D940B1B2734 /* Pods_Krishakah_KrishakahUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB6477C683C63B2B3D0682 /* Pods_Krishakah_KrishakahUITests.framework */; };
+		972A691C4DBA5578A2C345AF /* Pods_Krishakah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB6B38DB16CC3B79AA55442 /* Pods_Krishakah.framework */; };
+		B96562266DE13CE69218E59F /* Pods_KrishakahTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CA40D38D015E2AB6942B93 /* Pods_KrishakahTests.framework */; };
+		FB0D189A256F6F4A00B5186D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D1899256F6F4A00B5186D /* RegisterViewController.swift */; };
+		FB0D18A2256F6F8700B5186D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D18A1256F6F8700B5186D /* LoginViewController.swift */; };
+		FB0D18AD256F73E700B5186D /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D18AC256F73E700B5186D /* OtpViewController.swift */; };
+		FB0D18B2256F946400B5186D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D18B1256F946400B5186D /* SignUpViewController.swift */; };
+		FB0D18B7256F94B800B5186D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D18B6256F94B800B5186D /* LocationViewController.swift */; };
+		FB0D18C2256F99B700B5186D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB0D18C1256F99B700B5186D /* GoogleService-Info.plist */; };
+		FB1C2F1F257E7B21003F5397 /* ViewAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C2F1E257E7B21003F5397 /* ViewAddViewController.swift */; };
+		FB1C2F24257E821D003F5397 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C2F23257E821D003F5397 /* FavouritesViewController.swift */; };
+		FB22929D25749E44009FC1AD /* AccounttViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22929C25749E44009FC1AD /* AccounttViewController.swift */; };
+		FB2292FF2574FD50009FC1AD /* splashScreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = FB2292FE2574FD50009FC1AD /* splashScreen.gif */; };
+		FB22936C25766144009FC1AD /* LegumeFeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22936B25766144009FC1AD /* LegumeFeedViewCell.swift */; };
+		FB23EF0A25720B480087A904 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB23EF0925720B480087A904 /* HomeVC.swift */; };
+		FB23EF0F25720B510087A904 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB23EF0E25720B510087A904 /* ChatVC.swift */; };
+		FB23EFD725723F120087A904 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB23EFD625723F120087A904 /* GifView.swift */; };
+		FB23F004257341FC0087A904 /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB23F003257341FC0087A904 /* SellViewController.swift */; };
+		FB275937257CBF8E009B08FC /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB275936257CBF8E009B08FC /* FeedVC.swift */; };
+		FB275968257DE1D3009B08FC /* SellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB275967257DE1D3009B08FC /* SellVC.swift */; };
+		FB74BAF4256FE02A00A236E4 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BAF3256FE02A00A236E4 /* APIs.swift */; };
+		FB74BAF9256FE05800A236E4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74BAF8256FE05800A236E4 /* Reachability.swift */; };
+		FB74BB46256FE16000A236E4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB74BB45256FE15F00A236E4 /* Colors.xcassets */; };
+		FBBBE50C257112F9001231C7 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBE50B257112F9001231C7 /* HomeTabBarController.swift */; };
+		FBBBE51425711641001231C7 /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBBE51325711641001231C7 /* GoogleMapsViewController.swift */; };
+		FBE1CF19256F4727002EDA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CF18256F4727002EDA06 /* AppDelegate.swift */; };
+		FBE1CF1B256F4727002EDA06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CF1A256F4727002EDA06 /* SceneDelegate.swift */; };
+		FBE1CF20256F4727002EDA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CF1E256F4727002EDA06 /* Main.storyboard */; };
+		FBE1CF22256F472A002EDA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CF21256F472A002EDA06 /* Assets.xcassets */; };
+		FBE1CF25256F472A002EDA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE1CF23256F472A002EDA06 /* LaunchScreen.storyboard */; };
+		FBE1CF30256F472A002EDA06 /* KrishakahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CF2F256F472A002EDA06 /* KrishakahTests.swift */; };
+		FBE1CF3B256F472A002EDA06 /* KrishakahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE1CF3A256F472A002EDA06 /* KrishakahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE1CF2C256F472A002EDA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1CF0D256F4727002EDA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1CF14256F4727002EDA06;
+			remoteInfo = Krishakah;
+		};
+		FBE1CF37256F472A002EDA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE1CF0D256F4727002EDA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE1CF14256F4727002EDA06;
+			remoteInfo = Krishakah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E260190DD7010201E7E2F8E /* Pods-KrishakahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrishakahTests.release.xcconfig"; path = "Target Support Files/Pods-KrishakahTests/Pods-KrishakahTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FDB6477C683C63B2B3D0682 /* Pods_Krishakah_KrishakahUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krishakah_KrishakahUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31151DE362D7C1F385A81FF /* Pods-Krishakah-KrishakahUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishakah-KrishakahUITests.debug.xcconfig"; path = "Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B54E2C43A8F28754D13E13 /* Pods-Krishakah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishakah.debug.xcconfig"; path = "Target Support Files/Pods-Krishakah/Pods-Krishakah.debug.xcconfig"; sourceTree = "<group>"; };
+		D1CA40D38D015E2AB6942B93 /* Pods_KrishakahTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrishakahTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB63DEBD4B5A958888007CF /* Pods-Krishakah-KrishakahUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishakah-KrishakahUITests.release.xcconfig"; path = "Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4A017CDA35F38C370D3C9BC /* Pods-Krishakah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishakah.release.xcconfig"; path = "Target Support Files/Pods-Krishakah/Pods-Krishakah.release.xcconfig"; sourceTree = "<group>"; };
+		FB0D1899256F6F4A00B5186D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FB0D18A1256F6F8700B5186D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB0D18AC256F73E700B5186D /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		FB0D18B1256F946400B5186D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FB0D18B6256F94B800B5186D /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		FB0D18C1256F99B700B5186D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FB1C2F1E257E7B21003F5397 /* ViewAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAddViewController.swift; sourceTree = "<group>"; };
+		FB1C2F23257E821D003F5397 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		FB22929C25749E44009FC1AD /* AccounttViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccounttViewController.swift; sourceTree = "<group>"; };
+		FB2292BD2574B0D5009FC1AD /* Krishakah.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Krishakah.entitlements; sourceTree = "<group>"; };
+		FB2292FE2574FD50009FC1AD /* splashScreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splashScreen.gif; sourceTree = SOURCE_ROOT; };
+		FB22936B25766144009FC1AD /* LegumeFeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegumeFeedViewCell.swift; sourceTree = "<group>"; };
+		FB23EF0925720B480087A904 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FB23EF0E25720B510087A904 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		FB23EFD625723F120087A904 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		FB23F003257341FC0087A904 /* SellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
+		FB275936257CBF8E009B08FC /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		FB275967257DE1D3009B08FC /* SellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellVC.swift; sourceTree = "<group>"; };
+		FB74BAF3256FE02A00A236E4 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		FB74BAF8256FE05800A236E4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FB74BB45256FE15F00A236E4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FBBBE50B257112F9001231C7 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		FBBBE51325711641001231C7 /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		FBE1CF15256F4727002EDA06 /* Krishakah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krishakah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CF18256F4727002EDA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE1CF1A256F4727002EDA06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBE1CF1F256F4727002EDA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE1CF21256F472A002EDA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE1CF24256F472A002EDA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBE1CF26256F472A002EDA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1CF2B256F472A002EDA06 /* KrishakahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrishakahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CF2F256F472A002EDA06 /* KrishakahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishakahTests.swift; sourceTree = "<group>"; };
+		FBE1CF31256F472A002EDA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE1CF36256F472A002EDA06 /* KrishakahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrishakahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE1CF3A256F472A002EDA06 /* KrishakahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishakahUITests.swift; sourceTree = "<group>"; };
+		FBE1CF3C256F472A002EDA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC811C1260771F2430453035 /* Pods-KrishakahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrishakahTests.debug.xcconfig"; path = "Target Support Files/Pods-KrishakahTests/Pods-KrishakahTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB6B38DB16CC3B79AA55442 /* Pods_Krishakah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krishakah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE1CF12256F4727002EDA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972A691C4DBA5578A2C345AF /* Pods_Krishakah.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF28256F472A002EDA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96562266DE13CE69218E59F /* Pods_KrishakahTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF33256F472A002EDA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E7C60EC335D940B1B2734 /* Pods_Krishakah_KrishakahUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F32BDAFC1C849FFF0C03AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB6B38DB16CC3B79AA55442 /* Pods_Krishakah.framework */,
+				7FDB6477C683C63B2B3D0682 /* Pods_Krishakah_KrishakahUITests.framework */,
+				D1CA40D38D015E2AB6942B93 /* Pods_KrishakahTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6611514542961863FEF7A117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7B54E2C43A8F28754D13E13 /* Pods-Krishakah.debug.xcconfig */,
+				F4A017CDA35F38C370D3C9BC /* Pods-Krishakah.release.xcconfig */,
+				A31151DE362D7C1F385A81FF /* Pods-Krishakah-KrishakahUITests.debug.xcconfig */,
+				EBB63DEBD4B5A958888007CF /* Pods-Krishakah-KrishakahUITests.release.xcconfig */,
+				FC811C1260771F2430453035 /* Pods-KrishakahTests.debug.xcconfig */,
+				4E260190DD7010201E7E2F8E /* Pods-KrishakahTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB229362257654E9009FC1AD /* FeedViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB275936257CBF8E009B08FC /* FeedVC.swift */,
+			);
+			path = FeedViewControllers;
+			sourceTree = "<group>";
+		};
+		FB2293892576619A009FC1AD /* Feed VIew Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB22936B25766144009FC1AD /* LegumeFeedViewCell.swift */,
+			);
+			path = "Feed VIew Cells";
+			sourceTree = "<group>";
+		};
+		FB23F0092573B5700087A904 /* Login and signup */ = {
+			isa = PBXGroup;
+			children = (
+				FB0D18A1256F6F8700B5186D /* LoginViewController.swift */,
+				FB0D1899256F6F4A00B5186D /* RegisterViewController.swift */,
+				FB0D18AC256F73E700B5186D /* OtpViewController.swift */,
+				FB0D18B1256F946400B5186D /* SignUpViewController.swift */,
+				FB0D18B6256F94B800B5186D /* LocationViewController.swift */,
+				FBBBE51325711641001231C7 /* GoogleMapsViewController.swift */,
+			);
+			path = "Login and signup";
+			sourceTree = "<group>";
+		};
+		FB23F0352573B9F90087A904 /* SellViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB23F003257341FC0087A904 /* SellViewController.swift */,
+				FB275967257DE1D3009B08FC /* SellVC.swift */,
+			);
+			path = SellViewControllers;
+			sourceTree = "<group>";
+		};
+		FB67BC47258219E500A4BF59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB67BC4825821A4700A4BF59 /* Home */,
+				FB23F0092573B5700087A904 /* Login and signup */,
+				FB23F0352573B9F90087A904 /* SellViewControllers */,
+				FB229362257654E9009FC1AD /* FeedViewControllers */,
+				FB2293892576619A009FC1AD /* Feed VIew Cells */,
+				FB22929C25749E44009FC1AD /* AccounttViewController.swift */,
+				FB23EFD625723F120087A904 /* GifView.swift */,
+				FB1C2F1E257E7B21003F5397 /* ViewAddViewController.swift */,
+				FB1C2F23257E821D003F5397 /* FavouritesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB67BC4825821A4700A4BF59 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB23EF0925720B480087A904 /* HomeVC.swift */,
+				FB23EF0E25720B510087A904 /* ChatVC.swift */,
+				FBBBE50B257112F9001231C7 /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB74BAF2256FE01F00A236E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CF1A256F4727002EDA06 /* SceneDelegate.swift */,
+				FB74BAF3256FE02A00A236E4 /* APIs.swift */,
+				FB2292FE2574FD50009FC1AD /* splashScreen.gif */,
+				FBE1CF18256F4727002EDA06 /* AppDelegate.swift */,
+				FB74BAF8256FE05800A236E4 /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBE1CF0C256F4727002EDA06 = {
+			isa = PBXGroup;
+			children = (
+				FBE1CF17256F4727002EDA06 /* Krishakah */,
+				FBE1CF2E256F472A002EDA06 /* KrishakahTests */,
+				FBE1CF39256F472A002EDA06 /* KrishakahUITests */,
+				FBE1CF16256F4727002EDA06 /* Products */,
+				6611514542961863FEF7A117 /* Pods */,
+				31F32BDAFC1C849FFF0C03AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE1CF16256F4727002EDA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CF15256F4727002EDA06 /* Krishakah.app */,
+				FBE1CF2B256F472A002EDA06 /* KrishakahTests.xctest */,
+				FBE1CF36256F472A002EDA06 /* KrishakahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE1CF17256F4727002EDA06 /* Krishakah */ = {
+			isa = PBXGroup;
+			children = (
+				FB2292BD2574B0D5009FC1AD /* Krishakah.entitlements */,
+				FB74BAF2256FE01F00A236E4 /* Utils */,
+				FB67BC47258219E500A4BF59 /* Controllers */,
+				FBE1CF1E256F4727002EDA06 /* Main.storyboard */,
+				FBE1CF21256F472A002EDA06 /* Assets.xcassets */,
+				FB74BB45256FE15F00A236E4 /* Colors.xcassets */,
+				FBE1CF23256F472A002EDA06 /* LaunchScreen.storyboard */,
+				FBE1CF26256F472A002EDA06 /* Info.plist */,
+				FB0D18C1256F99B700B5186D /* GoogleService-Info.plist */,
+			);
+			path = Krishakah;
+			sourceTree = "<group>";
+		};
+		FBE1CF2E256F472A002EDA06 /* KrishakahTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CF2F256F472A002EDA06 /* KrishakahTests.swift */,
+				FBE1CF31256F472A002EDA06 /* Info.plist */,
+			);
+			path = KrishakahTests;
+			sourceTree = "<group>";
+		};
+		FBE1CF39256F472A002EDA06 /* KrishakahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE1CF3A256F472A002EDA06 /* KrishakahUITests.swift */,
+				FBE1CF3C256F472A002EDA06 /* Info.plist */,
+			);
+			path = KrishakahUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE1CF14256F4727002EDA06 /* Krishakah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CF3F256F472A002EDA06 /* Build configuration list for PBXNativeTarget "Krishakah" */;
+			buildPhases = (
+				480893FF61C204573050ABD8 /* [CP] Check Pods Manifest.lock */,
+				FBE1CF11256F4727002EDA06 /* Sources */,
+				FBE1CF12256F4727002EDA06 /* Frameworks */,
+				FBE1CF13256F4727002EDA06 /* Resources */,
+				C1E8DB61F9CAF8D9538D62D1 /* [CP] Embed Pods Frameworks */,
+				69B3829C3CF9647472D749B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Krishakah;
+			productName = Krishakah;
+			productReference = FBE1CF15256F4727002EDA06 /* Krishakah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE1CF2A256F472A002EDA06 /* KrishakahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CF42256F472A002EDA06 /* Build configuration list for PBXNativeTarget "KrishakahTests" */;
+			buildPhases = (
+				58DE83601B0CFCFDED8468A5 /* [CP] Check Pods Manifest.lock */,
+				FBE1CF27256F472A002EDA06 /* Sources */,
+				FBE1CF28256F472A002EDA06 /* Frameworks */,
+				FBE1CF29256F472A002EDA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1CF2D256F472A002EDA06 /* PBXTargetDependency */,
+			);
+			name = KrishakahTests;
+			productName = KrishakahTests;
+			productReference = FBE1CF2B256F472A002EDA06 /* KrishakahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBE1CF35256F472A002EDA06 /* KrishakahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE1CF45256F472A002EDA06 /* Build configuration list for PBXNativeTarget "KrishakahUITests" */;
+			buildPhases = (
+				98AD27D280A5B6C24A2314B4 /* [CP] Check Pods Manifest.lock */,
+				FBE1CF32256F472A002EDA06 /* Sources */,
+				FBE1CF33256F472A002EDA06 /* Frameworks */,
+				FBE1CF34256F472A002EDA06 /* Resources */,
+				B2FEFDC71C9172D035435584 /* [CP] Embed Pods Frameworks */,
+				23C3194009C0202B5A9FE3F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE1CF38256F472A002EDA06 /* PBXTargetDependency */,
+			);
+			name = KrishakahUITests;
+			productName = KrishakahUITests;
+			productReference = FBE1CF36256F472A002EDA06 /* KrishakahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE1CF0D256F4727002EDA06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FBE1CF14256F4727002EDA06 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FBE1CF2A256F472A002EDA06 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FBE1CF14256F4727002EDA06;
+					};
+					FBE1CF35256F472A002EDA06 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FBE1CF14256F4727002EDA06;
+					};
+				};
+			};
+			buildConfigurationList = FBE1CF10256F4727002EDA06 /* Build configuration list for PBXProject "Krishakah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE1CF0C256F4727002EDA06;
+			productRefGroup = FBE1CF16256F4727002EDA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE1CF14256F4727002EDA06 /* Krishakah */,
+				FBE1CF2A256F472A002EDA06 /* KrishakahTests */,
+				FBE1CF35256F472A002EDA06 /* KrishakahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE1CF13256F4727002EDA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74BB46256FE16000A236E4 /* Colors.xcassets in Resources */,
+				FBE1CF25256F472A002EDA06 /* LaunchScreen.storyboard in Resources */,
+				FB0D18C2256F99B700B5186D /* GoogleService-Info.plist in Resources */,
+				FBE1CF22256F472A002EDA06 /* Assets.xcassets in Resources */,
+				FBE1CF20256F4727002EDA06 /* Main.storyboard in Resources */,
+				FB2292FF2574FD50009FC1AD /* splashScreen.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF29256F472A002EDA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF34256F472A002EDA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23C3194009C0202B5A9FE3F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480893FF61C204573050ABD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Krishakah-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DE83601B0CFCFDED8468A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KrishakahTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69B3829C3CF9647472D749B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AD27D280A5B6C24A2314B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Krishakah-KrishakahUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FEFDC71C9172D035435584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Krishakah-KrishakahUITests/Pods-Krishakah-KrishakahUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E8DB61F9CAF8D9538D62D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Krishakah/Pods-Krishakah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE1CF11256F4727002EDA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0D18B7256F94B800B5186D /* LocationViewController.swift in Sources */,
+				FB0D18B2256F946400B5186D /* SignUpViewController.swift in Sources */,
+				FB0D18AD256F73E700B5186D /* OtpViewController.swift in Sources */,
+				FB0D189A256F6F4A00B5186D /* RegisterViewController.swift in Sources */,
+				FBBBE51425711641001231C7 /* GoogleMapsViewController.swift in Sources */,
+				FB1C2F1F257E7B21003F5397 /* ViewAddViewController.swift in Sources */,
+				FBBBE50C257112F9001231C7 /* HomeTabBarController.swift in Sources */,
+				FB22929D25749E44009FC1AD /* AccounttViewController.swift in Sources */,
+				FBE1CF19256F4727002EDA06 /* AppDelegate.swift in Sources */,
+				FB0D18A2256F6F8700B5186D /* LoginViewController.swift in Sources */,
+				FB74BAF4256FE02A00A236E4 /* APIs.swift in Sources */,
+				FB23EF0A25720B480087A904 /* HomeVC.swift in Sources */,
+				FB1C2F24257E821D003F5397 /* FavouritesViewController.swift in Sources */,
+				FB74BAF9256FE05800A236E4 /* Reachability.swift in Sources */,
+				FB275968257DE1D3009B08FC /* SellVC.swift in Sources */,
+				FB22936C25766144009FC1AD /* LegumeFeedViewCell.swift in Sources */,
+				FB23F004257341FC0087A904 /* SellViewController.swift in Sources */,
+				FB23EFD725723F120087A904 /* GifView.swift in Sources */,
+				FB23EF0F25720B510087A904 /* ChatVC.swift in Sources */,
+				FB275937257CBF8E009B08FC /* FeedVC.swift in Sources */,
+				FBE1CF1B256F4727002EDA06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF27256F472A002EDA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CF30256F472A002EDA06 /* KrishakahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1CF32256F472A002EDA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE1CF3B256F472A002EDA06 /* KrishakahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE1CF2D256F472A002EDA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1CF14256F4727002EDA06 /* Krishakah */;
+			targetProxy = FBE1CF2C256F472A002EDA06 /* PBXContainerItemProxy */;
+		};
+		FBE1CF38256F472A002EDA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE1CF14256F4727002EDA06 /* Krishakah */;
+			targetProxy = FBE1CF37256F472A002EDA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE1CF1E256F4727002EDA06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE1CF1F256F4727002EDA06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE1CF23256F472A002EDA06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE1CF24256F472A002EDA06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE1CF3D256F472A002EDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE1CF3E256F472A002EDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE1CF40256F472A002EDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B54E2C43A8F28754D13E13 /* Pods-Krishakah.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Krishakah/Krishakah.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7HM697FK;
+				INFOPLIST_FILE = Krishakah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.Krishakah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FBE1CF41256F472A002EDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A017CDA35F38C370D3C9BC /* Pods-Krishakah.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Krishakah/Krishakah.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7HM697FK;
+				INFOPLIST_FILE = Krishakah/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.Krishakah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FBE1CF43256F472A002EDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC811C1260771F2430453035 /* Pods-KrishakahTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW53HCX2ZT;
+				INFOPLIST_FILE = KrishakahTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.KrishakahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krishakah.app/Krishakah";
+			};
+			name = Debug;
+		};
+		FBE1CF44256F472A002EDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E260190DD7010201E7E2F8E /* Pods-KrishakahTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW53HCX2ZT;
+				INFOPLIST_FILE = KrishakahTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.KrishakahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krishakah.app/Krishakah";
+			};
+			name = Release;
+		};
+		FBE1CF46256F472A002EDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31151DE362D7C1F385A81FF /* Pods-Krishakah-KrishakahUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW53HCX2ZT;
+				INFOPLIST_FILE = KrishakahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.KrishakahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Krishakah;
+			};
+			name = Debug;
+		};
+		FBE1CF47256F472A002EDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB63DEBD4B5A958888007CF /* Pods-Krishakah-KrishakahUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW53HCX2ZT;
+				INFOPLIST_FILE = KrishakahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richlabs.KrishakahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Krishakah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE1CF10256F4727002EDA06 /* Build configuration list for PBXProject "Krishakah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CF3D256F472A002EDA06 /* Debug */,
+				FBE1CF3E256F472A002EDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CF3F256F472A002EDA06 /* Build configuration list for PBXNativeTarget "Krishakah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CF40256F472A002EDA06 /* Debug */,
+				FBE1CF41256F472A002EDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CF42256F472A002EDA06 /* Build configuration list for PBXNativeTarget "KrishakahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CF43256F472A002EDA06 /* Debug */,
+				FBE1CF44256F472A002EDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE1CF45256F472A002EDA06 /* Build configuration list for PBXNativeTarget "KrishakahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE1CF46256F472A002EDA06 /* Debug */,
+				FBE1CF47256F472A002EDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE1CF0D256F4727002EDA06 /* Project object */;
+}

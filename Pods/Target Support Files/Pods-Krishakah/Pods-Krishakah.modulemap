@@ -1,0 +1,6 @@
+framework module Pods_Krishakah {
+  umbrella header "Pods-Krishakah-umbrella.h"
+
+  export *
+  module * { export * }
+}
