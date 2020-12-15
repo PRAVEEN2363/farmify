@@ -1,2 +1,2 @@
 # Krishakah
- Farmly
+ Farmify
